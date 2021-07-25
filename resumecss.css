@@ -239,3 +239,20 @@ body {
 .resume .resume_right .resume_hobby ul li:last-child:before {
   display: none;
 }
+
+
+@media only screen and (max-width: 800px) {
+  
+    .resume {
+      flex-direction: column;
+      
+    }
+    
+    .resume .resume_left {
+      width: 280px;
+      
+    }
+    body{
+      background: navy;
+    }
+}
